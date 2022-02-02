@@ -1,0 +1,25 @@
+.footer_container
+{
+  background-color:black;
+  color:white;
+  padding-top: 80;
+  padding-bottom: 80;
+}
+
+.professional_media_account_logos_footer
+{
+  font-size: 80px;
+  padding: 10 10;
+}
+
+.email_footer
+{
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+.credits_footer
+{
+  font-size: 12px;
+}

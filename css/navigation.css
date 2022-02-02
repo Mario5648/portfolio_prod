@@ -1,0 +1,86 @@
+
+
+.logo
+{
+  height: 80px;
+}
+@media only screen and (max-width: 1200px) {
+    .logo {
+        margin-left: -30;
+    }
+
+
+}
+.nav_text
+{
+  font-size:20px;
+}
+.nav_text:hover {
+  opacity: 0.3;
+
+}
+@media only screen and (max-width: 1200px) {
+    .nav_text_show {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .nav_hamburger_show {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 900px) {
+  .anchor_aboutme {
+      display: block;
+      position: relative;
+      top: 350px;
+      visibility: hidden;
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+  .anchor_aboutme {
+      display: block;
+      position: relative;
+      top: 200px;
+      visibility: hidden;
+  }
+}
+
+
+
+.nav_resume_option
+{
+  color:#cc0000;
+}
+
+.nav_elements_padding
+{
+  padding-left: 50;
+  padding-right: 50;
+
+}
+
+.remove_underline
+{
+  text-decoration: none;
+}
+
+.nav_text_vertical_align
+{
+  padding-left: 30;
+  padding-right:30;
+  padding-top:25;
+  padding-bottom: 20;
+}
+
+.nav_hamburger
+{
+  padding-top:15;
+  font-size:50px
+}

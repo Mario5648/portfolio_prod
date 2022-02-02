@@ -1,0 +1,154 @@
+@media only screen and (min-width: 1300px) {
+  .projects_contianer
+  {
+    margin-top: 300;
+    margin-left: 150;
+    margin-right: 150;
+  }
+  .project_description_container
+  {
+    padding-right: 50px;
+  }
+  .projects_title
+  {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .project_title
+  {
+    font-size: 30px;
+    font-weight: bold;
+    color: #cc0000;
+  }
+
+  .project_tech_icon_attributes
+  {
+    color:black;
+    font-size: 16;
+    padding: 10 10;
+  }
+  .project_tech_next_to
+  {
+    display: inline-block;
+  }
+
+  .project_row
+  {
+    display:flex;
+  }
+  .project_half
+  {
+    flex:50%;
+  }
+
+  .project_image
+  {
+    width: 100%;
+    margin-top: 50;
+  }
+  .project_image_zonein
+  {
+    height:50%;
+    margin-top: 50;
+
+  }
+  .project_description_text
+  {
+    font-size: 20px;
+  }
+  .project_buttons
+  {
+    border-radius: 10%;
+    border-style: solid;
+    border-color: #cc0000;
+    padding: 10 10;
+    color: #cc0000;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .project_buttons:hover
+  {
+    background-color: rgb(204,0,0,0.2);
+  }
+
+
+  .medal_icon
+  {
+    width:50px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+    .projects_contianer
+    {
+      margin-top: 400;
+      margin-left: 10;
+      margin-right: 10;
+      margin-bottom: 100;
+    }
+    .project_description_container
+    {
+      padding-right: 50px;
+    }
+    .projects_title
+    {
+      font-size: 40px;
+      font-weight: bold;
+    }
+    .project_title
+    {
+      font-size: 30px;
+      font-weight: bold;
+      color: #cc0000;
+    }
+
+    .project_tech_icon_attributes
+    {
+      color:black;
+      font-size: 16;
+      padding: 10 10;
+    }
+    .project_tech_next_to
+    {
+      display: inline-block;
+    }
+
+    .project_image
+    {
+      width: 100%;
+      margin-top: 50;
+    }
+    .project_image_zonein
+    {
+      height:70%;
+      margin-top: 50;
+    }
+    .project_description_text
+    {
+      font-size: 20px;
+    }
+    .project_buttons
+    {
+      border-radius: 10%;
+      border-style: solid;
+      border-color: #cc0000;
+      padding: 10 10;
+      color: #cc0000;
+      cursor: pointer;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+    .project_buttons:hover
+    {
+      background-color: rgb(204,0,0,0.2);
+    }
+
+    .medal_icon
+    {
+      width:50px;
+    }
+  }
+}

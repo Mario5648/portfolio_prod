@@ -1,0 +1,102 @@
+.web_text
+{
+  font-family: Comfortaa;
+}
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+@media only screen and (min-width: 1200px) {
+
+
+  .triangle-left {
+    position:absolute;
+    right:0px;
+  	width: 0;
+  	height: 0;
+    margin-top: 0;
+  	border-top: 550px solid transparent;
+  	border-right: 600px solid #cc0000;
+  	border-bottom: 550px solid transparent;
+    opacity: 0.5;
+
+  }
+  .circle2
+  {
+    position:absolute;
+    margin-top: 500;
+    right:0px;
+    width:400px;
+
+  }
+
+  .triangle-right_1 {
+    position:absolute;
+    left:0px;
+    margin-top: 2200;
+    width: 0;
+  	height: 0;
+  	border-top: 350px solid transparent;
+  	border-left: 400px solid rgb(204,0,0,0.5);
+  	border-bottom: 350px solid transparent;
+
+  }
+  .circle3
+  {
+    position:absolute;
+    margin-top: 2500;
+    left:0px;
+    width:200px;
+
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .triangle-left {
+    position:absolute;
+    right:0px;
+  	width: 0;
+  	height: 0;
+    margin-top: 100;
+  	border-top: 450px solid transparent;
+  	border-right: 500px solid #cc0000;
+  	border-bottom: 450px solid transparent;
+    opacity: 0.5;
+  }
+  .circle2
+  {
+    position:absolute;
+    margin-top: 500;
+    right:0px;
+    width:300px;
+
+  }
+}
+@media only screen and (max-width: 800px) {
+  .triangle-left {
+    position:absolute;
+    right:0px;
+    width: 0;
+    height: 0;
+    margin-top: 250;
+    border-top: 350px solid transparent;
+    border-right: 400px solid #cc0000;
+    border-bottom: 350px solid transparent;
+    opacity: 0.5;
+  }
+  .circle2
+  {
+    position:absolute;
+    margin-top: 500;
+    right:0px;
+    width:200px;
+
+  }
+}
+.circle1
+{
+  position:absolute;
+  margin-top: 400;
+  margin-left: -50;
+  width:200px;
+}

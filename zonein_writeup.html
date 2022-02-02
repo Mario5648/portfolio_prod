@@ -1,0 +1,100 @@
+<html>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./css/navigation.css">
+<link rel="stylesheet" href="./css/sidebar.css">
+<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+<link rel="stylesheet" href="./css/pattern_css.css">
+<link rel="stylesheet" href="./css/view_project_css.css">
+<link rel="stylesheet" href="./css/projects_css.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+<link rel="stylesheet" href="./css/footer_css.css">
+
+<header>
+</header>
+
+
+<body class="web_text">
+  <div class="w3-top" style="z-index: 20;">
+    <div class="w3-bar w3-white w3-card nav_elements_padding">
+      <a class=" w3-right nav_hamburger nav_hamburger_show" href="javascript:void(0)" onclick="openNav()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="./index.html#home"><img src="./images/mario_portfolio_logo.png" class="w3-bar-item logo"></img></a>
+      <a href="./MarioDeJesus_Resume.pdf" class="w3-right nav_text remove_underline nav_text_vertical_align nav_resume_option nav_text_show">Resume</a>
+      <a href="./index.html#contact" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Contact</a>
+      <a href="./index.html#projects" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Projects</a>
+      <a href="./index.html#experience" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Experience</a>
+      <a href="./index.html#skills" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Skills</a>
+      <a href="./index.html#about" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">About</a>
+    </div>
+  </div>
+
+  <div id="mySidenav" class="sidenav" style="z-index: 20;">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="./index.html#about" class="" style="color:white">About</a>
+    <a href="./index.html#skills" class="" style="color:white">Skills</a>
+    <a href="./index.html#experience" class="" style="color:white">Experience</a>
+    <a href="./index.html#projects" class="" style="color:white">Projects</a>
+    <a href="./index.html#contact" class="" style="color:white">Contact</a>
+    <a href="./MarioDeJesus_Resume.pdf" class="" style="color:#cc0000">Resume</a>
+  </div>
+
+
+  <div class="project_writeup_title_container w3-center">
+    <center><p class="project_title_viewer">ZoneIn</p></center>
+    <center><p style="color:#cc0000;">Award Winning</p></center>
+    <div class="project_tech_next_to"><p class="project_tech_icon_attributes_view w3-center"><i class="devicon-python-plain"></i><br>Python</p></div>
+    <div class="project_tech_next_to"><p class="project_tech_icon_attributes_view w3-center"><i class="devicon-java-plain"></i><br>Java</p></div>
+    <div class="project_tech_next_to"><p class="project_tech_icon_attributes_view w3-center"><i class="devicon-javascript-plain"></i><br>JavaScript</p></div>
+    <div class="project_tech_next_to"><p class="project_tech_icon_attributes_view w3-center"><i class="devicon-tensorflow-original"></i><br>TensorFlow</p></div>
+  </div>
+  <div class="description_container">
+    <hr>
+    <p>Although we grew up in a digital age, it is no secret that even Generation Z gets overwhelmed by the abundance of information that comes with the internet. This is where the term "zoning out" comes from. Our minds tend to wander even when we are physically in class, but at least our classmates and professors were holding us accountable. Now that COVID-19 has left us increasingly relying on the internet for education, zoning out is easier than ever. The question is, can we work hand-in-hand to zone in? </p>
+    <h2>Problem Satement</h2>
+    <p>With increased dependency on the internet and no professors or coworkers to hold them accountable, students and employees face difficulties with prioritizing action items. In an ideal world, they are able to filter distractions to optimize time and work. However, it's important to have empathy when looking at circumstances as to why students are struggling. There are external and internal factors that could affect their ability to be productive, i.e. background noise and sensory overload. The impact this problem has extends to over 1.5 billion students on a global scale. It's an important opportunity for students to eliminate bad productivity habits, recognize their individual potential, and exceed it in a set amount of time.</p>
+    <h2>Solution Statement</h2>
+    <p>For students and employees who have difficulty filtering distractions, ZoneIn is an educational tool that assists them with dedicating specific times of the day to work. Unlike our competitors, Zone In offers intrinsic value to our users by providing them with educational resources on how to better shift their focus to top priorities. We allow our users to customize the types of sites they want to block and allot specific time slots to work on their given tasks.</p>
+    <h2>Functionality</h2>
+    <p>The Python application will start up a local server being hosted on your computer to handle the requests for that user alone. The Python app will also be equipped with an AI to be able to block entertainment videos from YouTube and entertainment websites. Finally the user will also be able to set up their time session, once it completes then the session will terminate by disabling the AI.</p>
+    <h4>Website Categories</h4>
+    <ul><li><b>Entertainment:</b> Society, Recreation, Sports, Shopping, Games, Adult, Home</li><li><b>Educational:</b> Arts, Business, Computers, Science, Health, Reference, News</li></ul>
+    <p>The AI will be able to analyze the URL and determine what category it is and will send a 1 if it is an entertainment category or a 2 otherwise.</p>
+    <br>
+    <h4>Video Categories</h4>
+    <ul><li><b>Entertainment:</b> Film & Animation, Pets & Animals, Sports, Travel & Events, Gaming, People & Blogs, Comedy, Entertainment</li><li><b>Educational:</b> Autos & Vehicles, Music, News & Politics, How-To & Style, Education, Science & Technology, Nonprofits & Activism</li></ul>
+    <p>For YouTube videos the AI will analyze the data from the video’s webpage, if it fits under an entertainment category then it will send a 1 or else it will send a 2.</p>
+    <br>
+    <h2>Images</h2>
+    <center><img src="./images/projects/project_zonein_images/btp.png" class="project_img"></img><p>Award</p></center>
+    <br>
+    <br>
+    <br>
+    <center><img src="./images/projects/project_zonein_images/website.png" class="project_img"></img><p>ZoneIn Homepage</p></center>
+    <br>
+    <br>
+    <br>
+    <center><img src="./images/projects/project_zonein_images/categories.png" class="project_img"></img><p>ZoneIn Categories App Section</p></center>
+    <br>
+    <br>
+    <br>
+    <center><img src="./images/projects/project_zonein_images/zonein_plugins.png" class="project_img"></img><p>ZoneIn Google Chrome Add-on</p></center>
+    <br>
+    <br>
+    <br>
+    <center><img src="./images/projects/project_zonein_images/block.png" class="project_img"></img><p>ZoneIn Blockpage (Netflix)</p></center>
+
+
+
+
+  </div>
+
+
+</body>
+
+
+</html>

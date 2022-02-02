@@ -1,0 +1,97 @@
+@media only screen and (min-width: 1200px) {
+  .description_container
+  {
+    margin-left: 200;
+    margin-right: 200;
+    margin-top: 10;
+  }
+
+  .project_writeup_title_container
+  {
+    margin-left: 200;
+    margin-right: 200;
+    margin-top: 200;
+  }
+
+  .project_title_viewer
+  {
+    font-size: 50px;
+  }
+
+  .project_tech_icon_attributes_view
+  {
+    font-size: 20px;
+    padding: 10 10;
+  }
+  .project_img
+  {
+    width:900px
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .description_container
+  {
+    margin-left: 200;
+    margin-right: 200;
+    margin-top: 10;
+  }
+
+  .project_writeup_title_container
+  {
+    margin-left: 200;
+    margin-right: 200;
+    margin-top: 200;
+  }
+
+  .project_title_viewer
+  {
+    font-size: 50px;
+  }
+
+  .project_tech_icon_attributes_view
+  {
+    font-size: 20px;
+    padding: 10 10;
+  }
+  .project_img
+  {
+    width:500px
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .description_container
+  {
+    margin-left: 50;
+    margin-right: 20;
+    margin-top: 10;
+  }
+
+  .project_writeup_title_container
+  {
+    margin-left: 20;
+    margin-right: 20;
+    margin-top: 200;
+  }
+
+  .project_title_viewer
+  {
+    font-size: 50px;
+  }
+
+  .project_tech_icon_attributes_view
+  {
+    font-size: 20px;
+    padding: 10 10;
+  }
+
+  .project_img
+  {
+    width:350px
+  }
+
+}
+}
