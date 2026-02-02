@@ -7,6 +7,7 @@ function change_experience_content (experience_name)
       document.getElementById("easyexpunctions_button").style.background = "rgba(0,0,0,0)";
       document.getElementById("pwrdby_button").style.background = "rgba(0,0,0,0)";
       document.getElementById("mitre_button").style.background = "rgba(0,0,0,0)";
+      document.getElementById("jpmc_button").style.background = "rgba(0,0,0,0)";
 
       var experience_content = `
       <div class="experience_job_container">
@@ -24,6 +25,8 @@ function change_experience_content (experience_name)
       document.getElementById("easyexpunctions_button").style.background = "rgba(204,0,0,0.4)";
       document.getElementById("pwrdby_button").style.background = "rgba(0,0,0,0)";
       document.getElementById("mitre_button").style.background = "rgba(0,0,0,0)";
+      document.getElementById("jpmc_button").style.background = "rgba(0,0,0,0)";
+
       var experience_content = `
       <div class="experience_job_container">
         <img src="./images/ee_logo.jpg" class="experience_image" style="width:100px;height:100px;"></img>
@@ -41,6 +44,8 @@ function change_experience_content (experience_name)
       document.getElementById("easyexpunctions_button").style.background = "rgba(0,0,0,0)";
       document.getElementById("pwrdby_button").style.background = "rgba(204,0,0,0.4)";
       document.getElementById("mitre_button").style.background = "rgba(0,0,0,0)";
+      document.getElementById("jpmc_button").style.background = "rgba(0,0,0,0)";
+
       var experience_content = `
       <div class="experience_job_container">
         <img src="./images/pwrdby_logo.png" class="experience_image"></img>
@@ -57,6 +62,7 @@ function change_experience_content (experience_name)
       document.getElementById("easyexpunctions_button").style.background = "rgba(0,0,0,0)";
       document.getElementById("pwrdby_button").style.background = "rgba(0,0,0,0)";
       document.getElementById("mitre_button").style.background = "rgba(204,0,0,0.4)";
+      document.getElementById("jpmc_button").style.background = "rgba(0,0,0,0)";
       var experience_content = `
       <div class="experience_job_container">
         <img src="./images/mitre_logo.png" class="experience_image"></img>
@@ -70,6 +76,32 @@ function change_experience_content (experience_name)
       document.getElementById("experience_content").innerHTML = experience_content;
 
       break;
+    case "jpmc":
+      document.getElementById("ai4good_button").style.background = "rgba(0,0,0,0)";
+      document.getElementById("easyexpunctions_button").style.background = "rgba(0,0,0,0)";
+      document.getElementById("pwrdby_button").style.background = "rgba(0,0,0,0)";
+      document.getElementById("mitre_button").style.background = "rgba(0,0,0,0)";
+      document.getElementById("jpmc_button").style.background = "rgba(204,0,0,0.4)";
 
+      var experience_content = `
+      <div class="experience_job_container">
+        <img src="./images/jpmc_logo.png" class="experience_image"></img>
+        <p class="experience_job_title">Software Engineer (NA Team Lead)<p style="color:#cc0000;font-weight:400;">@JPMorgan Chase & Co.</p></p>
+        <p class="experience_job_description"><i class="fa fa-angle-double-right" style="color:#cc0000;font-size:20px;"></i> Lead North American Nexus Team, Nexus reporting handled minimum $50 million per day</p>
+        <p class="experience_job_description"><i class="fa fa-angle-double-right" style="color:#cc0000;font-size:20px;"></i> In charge of all Nexus platform support inquiries, 25+ queries a week for external clients</p>
+        <p class="experience_job_description"><i class="fa fa-angle-double-right" style="color:#cc0000;font-size:20px;"></i> Created report failure notifier scripts with stake holders, saved 4 developing hours per week</p>
+        <p class="experience_job_description"><i class="fa fa-angle-double-right" style="color:#cc0000;font-size:20px;"></i> Developed and improved Nexus reporting framework for ease of trading and reading for clients </p>
+        <p class="experience_job_description"><i class="fa fa-angle-double-right" style="color:#cc0000;font-size:20px;"></i> Python developer & supporter on Beta One, platform handled 150+ daily active users </p>
+        <p class="experience_job_description"><i class="fa fa-angle-double-right" style="color:#cc0000;font-size:20px;"></i> Developed 85% of charts seen on the Beta One platform for clients to filter through data</p>
+        <br>
+        <br>
+        <p class="experience_job_description"><i>"Thanks a lot Mario for promptly replying to all our Nexus queries on daily basis, investigating & coming with fixes. Thanks for all the reporting requirement you have worked on this year. Really appreciate for all the efforts"<i></p>
+        <p>Internal Peer Appreciation : Nishtha Sharma VP</p>
+      </div>
+      `;
+
+      document.getElementById("experience_content").innerHTML = experience_content;
+
+      break;
   }
 }
